@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>AURA | Luxury Jewellery & Accessories</title>
+
+<meta name="description"
+    content="Discover beautiful jewellery and fashion accessories at AURA. Explore our latest collections and exclusive offers.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+
+<!-- ANNOUNCEMENT BAR -->
+
+<div class="announcement">
+    ✨ Discover Elegance. Discover AURA. ✨
+</div>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        AURA<span>.</span>
+        <small>JEWELLERY & ACCESSORIES</small>
+    </div>
+
+    <nav id="navbar">
+
+        <a href="#home">Home</a>
+        <a href="#categories">Collections</a>
+        <a href="#products">New Arrivals</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <div class="header-actions">
+
+        <button id="searchBtn" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <a href="login.html" aria-label="Account">
+            <i class="fa-regular fa-user"></i>
+        </a>
+
+        <a href="login.html" aria-label="Shopping bag">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span id="cartCount">0</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- SEARCH -->
+
+<div class="search-box" id="searchBox">
+
+    <input type="text" id="searchInput"
+        placeholder="Search jewellery, accessories...">
+
+    <button id="closeSearch">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+</div>
+
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="subtitle">THE ART OF ELEGANCE</p>
+
+        <h1>Beauty That<br>Defines <span>You.</span></h1>
+
+        <p class="hero-description">
+            Discover timeless jewellery and extraordinary
+            accessories designed to make every moment special.
+        </p>
+
+        <a href="#products" class="gold-btn">
+            EXPLORE COLLECTION
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+    <div class="hero-decoration">
+        <span>A</span>
+    </div>
+
+</section>
+
+
+<!-- CATEGORY SECTION -->
+
+<section class="categories section" id="categories">
+
+    <div class="section-heading">
+
+        <p>EXPLORE OUR WORLD</p>
+
+        <h2>Our Collections</h2>
+
+        <span></span>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <a href="#products" class="category-card">
+
+            <div class="category-image gold-category">
+                <i class="fa-solid fa-gem"></i>
+            </div>
+
+            <h3>Gold Jewellery</h3>
+
+            <p>Timeless Luxury</p>
+
+        </a>
+
+
+        <a href="#products" class="category-card">
+
+            <div class="category-image silver-category">
+                <i class="fa-regular fa-gem"></i>
+            </div>
+
+            <h3>Silver Jewellery</h3>
+
+            <p>Pure Elegance</p>
+
+        </a>
+
+
+        <a href="#products" class="category-card">
+
+            <div class="category-image artificial-category">
+                <i class="fa-solid fa-ring"></i>
+            </div>
+
+            <h3>Artificial Jewellery</h3>
+
+            <p>Modern Beauty</p>
+
+        </a>
+
+
+        <a href="#products" class="category-card">
+
+            <div class="category-image accessories-category">
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+
+            <h3>Accessories</h3>
+
+            <p>Complete Your Style</p>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTS SECTION -->
+
+<section class="products section" id="products">
+
+    <div class="section-heading">
+
+        <p>HANDPICKED FOR YOU</p>
+
+        <h2>New Arrivals</h2>
+
+        <span></span>
+
+    </div>
+
+
+    <div class="product-grid" id="productGrid">
+
+        <!-- Product 1 -->
+
+        <div class="product-card" data-name="Elegant Gold Necklace">
+
+            <div class="product-image">
+                <img src="images/necklace.jpg"
+                    alt="Elegant gold necklace">
+
+                <span class="new-label">NEW</span>
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+            </div>
+
+            <div class="product-info">
+
+                <p>GOLD COLLECTION</p>
+
+                <h3>Elegant Gold Necklace</h3>
+
+                <h4>₹2,499</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 2 -->
+
+        <div class="product-card" data-name="Royal Earrings">
+
+            <div class="product-image">
+
+                <img src="images/earrings.jpg"
+                    alt="Royal earrings">
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>ARTIFICIAL COLLECTION</p>
+
+                <h3>Royal Earrings</h3>
+
+                <h4>₹899</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 3 -->
+
+        <div class="product-card" data-name="Classic Diamond Ring">
+
+            <div class="product-image">
+
+                <img src="images/ring.jpg"
+                    alt="Classic ring">
+
+                <span class="new-label">NEW</span>
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>RING COLLECTION</p>
+
+                <h3>Classic Diamond Ring</h3>
+
+                <h4>₹1,599</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 4 -->
+
+        <div class="product-card" data-name="Luxury Bracelet">
+
+            <div class="product-image">
+
+                <img src="images/bracelet.jpg"
+                    alt="Luxury bracelet">
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>PREMIUM COLLECTION</p>
+
+                <h3>Luxury Bracelet</h3>
+
+                <h4>₹1,299</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 5 -->
+
+        <div class="product-card" data-name="Designer Handbag">
+
+            <div class="product-image">
+
+                <img src="images/handbag.jpg"
+                    alt="Designer handbag">
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>FASHION COLLECTION</p>
+
+                <h3>Designer Handbag</h3>
+
+                <h4>₹1,999</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 6 -->
+
+        <div class="product-card" data-name="Classic Watch">
+
+            <div class="product-image">
+
+                <img src="images/watch.jpg"
+                    alt="Classic watch">
+
+                <button class="wishlist" aria-label="Add to wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p>WATCH COLLECTION</p>
+
+                <h3>Classic Watch</h3>
+
+                <h4>₹2,199</h4>
+
+                <button class="add-cart">
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="product-note">
+        Product names, photos and prices shown are demonstration content.
+    </p>
+
+</section>
+
+
+<!-- OFFER SECTION -->
+
+<section class="offer-section" id="offers">
+
+    <div class="offer-content">
+
+        <p>EXCLUSIVE COLLECTION</p>
+
+        <h2>Elegance Is Always<br>In Fashion.</h2>
+
+        <p>
+            Explore our latest jewellery and accessories.
+            Find something beautiful for every occasion.
+        </p>
+
+        <a href="#products" class="gold-btn">
+            SHOP NOW
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="features">
+
+    <div>
+        <i class="fa-solid fa-gem"></i>
+        <h3>Premium Collection</h3>
+        <p>Beautifully selected designs.</p>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-heart"></i>
+        <h3>Made With Love</h3>
+        <p>Style for every special moment.</p>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-headset"></i>
+        <h3>Customer Support</h3>
+        <p>We're here to help you.</p>
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <h2>AURA<span>.</span></h2>
+
+            <p>JEWELLERY & ACCESSORIES</p>
+
+            <p>
+                Discover elegance, beauty and
+                timeless fashion with AURA.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#categories">Collections</a>
+            <a href="#products">New Arrivals</a>
+            <a href="#offers">Offers</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Customer Service</h3>
+
+            <a href="login.html">My Account</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Connect With Us</h3>
+
+            <p>Follow AURA for latest collections.</p>
+
+            <div class="social-icons">
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 AURA Jewellery & Accessories.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- WHATSAPP FLOAT BUTTON -->
+
+<a href="https://wa.me/91XXXXXXXXXX"
+    class="whatsapp-btn"
+    target="_blank"
+    aria-label="Contact on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<script src="js/script.js"></script>
+```
+
+</body>
+
+</html>
