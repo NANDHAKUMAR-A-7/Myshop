@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Create Account | AURA Jewellery & Accessories</title>
+
+<meta name="description"
+    content="Create your AURA account and explore our exclusive jewellery and accessories collections.">
+
+<link rel="stylesheet" href="login.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="auth-header">
+
+    <a href="index.html" class="logo">
+
+        AURA<span>.</span>
+
+        <small>JEWELLERY & ACCESSORIES</small>
+
+    </a>
+
+    <a href="index.html" class="back-home">
+
+        <i class="fa-solid fa-arrow-left"></i>
+
+        Back to Home
+
+    </a>
+
+</header>
+
+
+<!-- MAIN CONTAINER -->
+
+<main class="auth-container">
+
+
+    <!-- LEFT IMAGE SECTION -->
+
+    <section class="auth-image">
+
+        <div class="image-overlay">
+
+            <p class="image-subtitle">
+                YOUR JOURNEY BEGINS HERE
+            </p>
+
+            <h1>
+                Elegance<br>
+                Starts With <span>You.</span>
+            </h1>
+
+            <p>
+
+                Join AURA and discover a beautiful
+                collection of jewellery and accessories
+                made to celebrate your unique style.
+
+            </p>
+
+            <div class="image-decoration">
+                A
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REGISTRATION FORM -->
+
+    <section class="auth-form-section">
+
+        <div class="auth-form-wrapper">
+
+
+            <!-- MOBILE LOGO -->
+
+            <div class="mobile-logo">
+
+                <h1>AURA<span>.</span></h1>
+
+                <p>JEWELLERY & ACCESSORIES</p>
+
+            </div>
+
+
+            <!-- HEADING -->
+
+            <div class="form-heading">
+
+                <p class="welcome-text">
+                    JOIN THE AURA FAMILY
+                </p>
+
+                <h2>Create Account</h2>
+
+                <p>
+                    Register today and explore our exclusive collections.
+                </p>
+
+            </div>
+
+
+            <!-- REGISTRATION TABS -->
+
+            <div class="login-tabs">
+
+                <button type="button"
+                    class="tab-btn active"
+                    id="emailTab">
+
+                    <i class="fa-regular fa-envelope"></i>
+
+                    Email Registration
+
+                </button>
+
+
+                <button type="button"
+                    class="tab-btn"
+                    id="phoneTab">
+
+                    <i class="fa-solid fa-mobile-screen"></i>
+
+                    Phone OTP
+
+                </button>
+
+            </div>
+
+
+            <!-- EMAIL REGISTRATION -->
+
+            <form id="emailRegisterForm">
+
+
+                <!-- FULL NAME -->
+
+                <div class="input-group">
+
+                    <label for="fullName">
+                        Full Name
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            maxlength="80"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="input-group">
+
+                    <label for="registerEmail">
+                        Email Address
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="registerEmail"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MOBILE NUMBER -->
+
+                <div class="input-group">
+
+                    <label for="registerPhone">
+                        Mobile Number
+                    </label>
+
+                    <div class="input-box phone-box">
+
+                        <span class="country-code">+91</span>
+
+                        <input
+                            type="tel"
+                            id="registerPhone"
+                            placeholder="Enter 10-digit mobile number"
+                            maxlength="10"
+                            inputmode="numeric"
+                            autocomplete="tel-national"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PASSWORD -->
+
+                <div class="input-group">
+
+                    <label for="registerPassword">
+                        Create Password
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input
+                            type="password"
+                            id="registerPassword"
+                            placeholder="Create a strong password"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required>
+
+                        <button
+                            type="button"
+                            class="toggle-password"
+                            data-target="registerPassword"
+                            aria-label="Show password">
+
+                            <i class="fa-regular fa-eye"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONFIRM PASSWORD -->
+
+                <div class="input-group">
+
+                    <label for="confirmPassword">
+                        Confirm Password
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Re-enter your password"
+                            autocomplete="new-password"
+                            minlength="8"
+                            required>
+
+                        <button
+                            type="button"
+                            class="toggle-password"
+                            data-target="confirmPassword"
+                            aria-label="Show password">
+
+                            <i class="fa-regular fa-eye"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PASSWORD REQUIREMENTS -->
+
+                <div class="password-hint">
+
+                    <p>Password must contain:</p>
+
+                    <ul>
+
+                        <li>At least 8 characters</li>
+
+                        <li>One uppercase letter</li>
+
+                        <li>One lowercase letter</li>
+
+                        <li>One number</li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- TERMS -->
+
+                <div class="terms-box">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            required>
+
+                        I agree to the
+
+                        <a href="terms.html">
+                            Terms & Conditions
+                        </a>
+
+                        and
+
+                        <a href="privacy.html">
+                            Privacy Policy
+                        </a>.
+
+                    </label>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="login-btn"
+                    id="registerBtn">
+
+                    <span>CREATE MY ACCOUNT</span>
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </form>
+
+
+            <!-- PHONE REGISTRATION -->
+
+            <form id="phoneRegisterForm" class="hidden">
+
+
+                <div class="input-group">
+
+                    <label for="phoneName">
+                        Full Name
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <input
+                            type="text"
+                            id="phoneName"
+                            placeholder="Enter your full name"
+                            maxlength="80">
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="phoneRegisterNumber">
+                        Mobile Number
+                    </label>
+
+                    <div class="input-box phone-box">
+
+                        <span class="country-code">+91</span>
+
+                        <input
+                            type="tel"
+                            id="phoneRegisterNumber"
+                            placeholder="Enter 10-digit mobile number"
+                            maxlength="10"
+                            inputmode="numeric">
+
+                    </div>
+
+                </div>
+
+
+                <div id="recaptcha-container"></div>
+
+
+                <button
+                    type="button"
+                    class="login-btn"
+                    id="sendRegisterOtpBtn">
+
+                    <span>SEND VERIFICATION OTP</span>
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+
+                <!-- OTP -->
+
+                <div class="input-group hidden"
+                    id="registerOtpGroup">
+
+                    <label for="registerOtp">
+                        Enter OTP
+                    </label>
+
+                    <div class="input-box">
+
+                        <i class="fa-solid fa-key"></i>
+
+                        <input
+                            type="text"
+                            id="registerOtp"
+                            placeholder="Enter 6-digit OTP"
+                            maxlength="6"
+                            inputmode="numeric"
+                            autocomplete="one-time-code">
+
+                    </div>
+
+                </div>
+
+
+                <div class="terms-box">
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            id="phoneTerms">
+
+                        I agree to the AURA Terms & Conditions
+                        and Privacy Policy.
+
+                    </label>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="login-btn hidden"
+                    id="verifyRegisterOtpBtn">
+
+                    <span>VERIFY & CREATE ACCOUNT</span>
+
+                    <i class="fa-solid fa-check"></i>
+
+                </button>
+
+
+            </form>
+
+
+            <!-- GOOGLE REGISTRATION -->
+
+            <div class="divider">
+
+                <span></span>
+
+                <p>OR REGISTER WITH</p>
+
+                <span></span>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="google-btn"
+                id="googleRegisterBtn">
+
+                <img
+                    src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+                    alt="Google">
+
+                Continue with Google
+
+            </button>
+
+
+            <!-- LOGIN LINK -->
+
+            <div class="register-link">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login Here
+                </a>
+
+            </div>
+
+
+            <!-- MESSAGE -->
+
+            <div id="registerMessage"
+                class="auth-message"
+                role="status"
+                aria-live="polite">
+            </div>
+
+
+            <!-- SECURITY -->
+
+            <div class="security-note">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                Your personal information is protected.
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 AURA Jewellery & Accessories. All Rights Reserved.
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script type="module" src="register.js"></script>
+
+</body>
+
+</html>
